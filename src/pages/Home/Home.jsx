@@ -5,6 +5,7 @@ import Navbar from "../shared/Navbar/Navbar";
 import RightSideNav from "../shared/RightSideNav/RightSideNav";
 import BreakingNews from "./BreakingNews";
 import EventCard from "./EventCard";
+import Footer from "../Footer/Footer";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
+            
            
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div>
@@ -29,8 +31,11 @@ const Home = () => {
                 </div>
                 <div>
                     <RightSideNav></RightSideNav>
+
                 </div>
+
             </div>
+            <Footer></Footer>
         </div>
     );
 };

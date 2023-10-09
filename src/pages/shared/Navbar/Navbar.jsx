@@ -22,9 +22,9 @@ logOut()
       <li>
         <NavLink to="/career"> Career</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to="/login"> Login</NavLink>
-      </li>
+      </li> */}
      
     </>
   
