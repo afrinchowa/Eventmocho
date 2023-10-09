@@ -8,7 +8,7 @@ const Login = () => {
 const {signIn  } =useContext(AuthContext);
 const location =useLocation();
 const navigate =useNavigate();
-console.log('locatiopn in the log in page',location);
+console.log('location in the log in page',location);
 
 const handleLogin  = e  => {
 e.preventDefault();
@@ -21,13 +21,11 @@ signIn(email, password)
 .then(result => {
 console.log(result.user);
 // navigate after log in 
-navigate (location?.state? location.state : '/')
-
-
+navigate (location?.state? location.state : '/');
 
 })
 .catch ( error => {
-  console.error(error)
+  console.error(error);
 })
 }
 

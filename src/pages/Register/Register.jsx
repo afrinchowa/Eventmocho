@@ -4,49 +4,27 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 
 const Register = () => {
-
-const  {  createUser }= useContext(AuthContext);
-
-
-
-
-
-
+  const { createUser } = useContext(AuthContext);
 
   const handleRegister = (e) => {
     e.preventDefault();
     console.log(e.currentTarget);
     const form = new FormData(e.currentTarget);
-    const name =form.get('name');
-    const photo =form.get('photo');
-    const email =form.get('email');
-    const password =form.get('password');
-    console.log(name , photo ,email,password);
+    const name = form.get("name");
+    const photo = form.get("photo");
+    const email = form.get("email");
+    const password = form.get("password");
+    console.log(name, photo, email, password);
 
-// create user 
- createUser( email , password)
- .then (result => {
-  console.log(result.user)
- })
-.catch(error => {
-  console.error ( error)
-})
-
+    // create user
+    createUser(email, password)
+      .then((result) => {
+        console.log(result.user);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   return (
     <div>
@@ -118,7 +96,7 @@ const  {  createUser }= useContext(AuthContext);
             <p className="text-center text-sm">
               Already have an account ? Please_
               <Link className="text-blue-600 font-bold" to="/login">
-                 Login
+                Login
               </Link>
             </p>
           </div>

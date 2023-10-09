@@ -57,7 +57,9 @@ const RightSideNav = () => {
  <div className=" p-4 space-y-3 mb-6">
       <h2 className="text-2xl">WHAT THE CLIENTS SAY</h2>
       <img src={say1} alt="" />
+      <p>An elegant evening of fine dining and networking for professionals. A corporate networking mixer</p>
       <img src={say2} alt="" />
+      <p>An elegant evening of fine dining and networking for professionals. A corporate networking mixer is an informal gathering where professionals from various industries come together to build and stre</p>
    
     </div>
 
