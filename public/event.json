@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Summer Music Festival",
+      "img": "https://i.ibb.co/BqSxsNC/img-7.jpg",
+      "price": 45.99,
+      "description": "Join us for a weekend of live music, food, and fun in the sun! Corporate conferences and seminars are educational events where industry experts and thought leaders share insights, best practices, and the latest trends in a particular field. Attendees come to learn, network, and stay up-to-date with industry developments.",
+      "id" : "1"
+    },
+    {
+      "name": "Corporate Gala Dinner",
+      "img": "https://i.ibb.co/z7FdPXb/img-1.jpg",
+      "price": 150.00,
+      "description": "An elegant evening of fine dining and networking for professionals. A corporate networking mixer is an informal gathering where professionals from various industries come together to build and strengthen their business connections. These events typically feature drinks, appetizers, and opportunities for attendees to engage in meaningful conversations and exchange contact information.",
+      "id" : "2"
+    },
+    {
+      "name": "Tech Conference 2023",
+      "img": "https://i.ibb.co/pQjQh4k/img-3.jpg",
+      "price": 299.99,
+      "description": "Stay updated with the latest tech trends at our annual conference.A team building retreat is designed to foster teamwork, boost morale, and improve communication among employees. It often takes place at a remote location and includes activities such as trust-building exercises, problem-solving challenges, and workshops aimed at enhancing collaboration.",
+      "id" : "3"
+    },
+    {
+      "name": "Wedding Extravaganza",
+      "img": "https://i.ibb.co/MnnBNSG/img-5.jpg",
+      "price": 500.00,
+      "description": "The perfect event to plan your dream wedding with experts. A product launch event is an exciting occasion where a company introduces a new product or service to the market. These events are carefully orchestrated to generate buzz and interest among potential customers, media representatives, and industry influencers.",
+      "id" : "4"
+    },
+    {
+      "name": "Fitness Expo",
+      "img": "https://i.ibb.co/rtdSyD2/img-8.jpg",
+      "price": 29.99,
+      "description": "Get inspired and motivated to live a healthier lifestyle.An AGM is a mandatory event for public companies, where shareholders gather to receive updates on the company's performance, financial results, and future plans. It's an opportunity for shareholders to vote on key issues and interact with company leadership.",
+      "id" : "5"
+    },
+    {
+      "name": "Art and Craft Fair",
+      "img": "https://i.ibb.co/ThmLN85/img-2.jpg",
+      "price": 10.50,
+      "description": "Discover unique handmade crafts and artworks at our fair. A corporate holiday party is a festive celebration held at the end of the year to thank employees for their hard work and build team spirit. It often includes entertainment, food, and sometimes even themed activities to create a memorable and enjoyable experience for staff members.",
+      "id" : "6"
+    }
+  ]
+  
